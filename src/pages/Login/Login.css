@@ -1,0 +1,44 @@
+.form {
+    background-color: darkcyan;
+    padding: 20px 20px;
+    display: inline-block;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 10%;
+    border-radius: 3px;
+}
+
+.form:hover {
+    box-shadow: 10px 10px 5px lightblue;
+}
+
+.form>input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(19, 1, 57);
+    border-radius: 4px;
+}
+
+.form>button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #000000;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(25, 42, 44);
+}
+.form>button:hover {
+    background-color: #929292
+}
+.form>button:active {
+    background-color: #929292;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
